@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- CSS Principal -->
+    
+    <!-- CSS principal -->
     <link rel="stylesheet" href="style.css">
     
     <!-- Facebook Pixel Base Code (ID: 858555800024850) -->
@@ -24,7 +25,7 @@
         'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '858555800024850');
         fbq('track', 'PageView');
-        // Evento ViewContent
+        // Evento ViewContent (visualização do produto)
         fbq('track', 'ViewContent', {
             content_name: 'Guia Pet em Equilíbrio - Pacote Completo',
             content_category: 'ebook_comportamento_pet',
@@ -36,7 +37,7 @@
     <noscript>
         <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=858555800024850&ev=PageView&noscript=1"/>
     </noscript>
-    <!-- Fim do Pixel -->
+    <!-- Fim do Pixel - Eventos InitiateCheckout e Purchase NÃO foram implementados -->
 </head>
 <body>
 
@@ -77,7 +78,7 @@
     <section style="background: #F9F3EA;">
         <div class="container">
             <h2 class="section-title">Os 5 maiores desafios (e como o Guia resolve)</h2>
-            <div class="grid-problemas">
+            <div class="grid-problemas" style="grid-template-columns: repeat(auto-fit, minmax(280px,1fr));">
                 <div class="problema-card">
                     <i class="fas fa-poop icon-lg"></i>
                     <h3>Xixi e cocô fora do lugar</h3>
@@ -114,12 +115,12 @@
             <div class="grid-2">
                 <div class="card">
                     <i class="fas fa-book-open icon-lg"></i>
-                    <h3>📘 E-book "Guia Pet em Equilíbrio"</h3>
+                    <h3>📘 E-book “Guia Pet em Equilíbrio”</h3>
                     <p>Mais de 45 páginas com técnicas validadas na prática, ilustrações e exercícios. Versão PDF otimizada para ler no celular ou computador.</p>
                 </div>
                 <div class="card">
                     <i class="fas fa-globe icon-lg"></i>
-                    <h3>🌐 Site interativo "Meu Pet em Equilíbrio"</h3>
+                    <h3>🌐 Site interativo “Meu Pet em Equilíbrio”</h3>
                     <p><strong>Acesso vitalício exclusivo!</strong> Selecione a idade e espécie (cão ou gato) e receba orientações personalizadas, cronogramas e dicas ajustadas ao seu pet.</p>
                 </div>
                 <div class="card">
@@ -294,6 +295,6 @@
     </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
