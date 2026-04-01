@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #FEFAF5;
@@ -11,17 +10,14 @@ body {
     line-height: 1.5;
     scroll-behavior: smooth;
 }
-
 h1, h2, h3, .logo, .btn, .timer-box {
     font-family: 'Poppins', sans-serif;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
 }
-
 .header {
     background: #FFFFFFEE;
     backdrop-filter: blur(8px);
@@ -61,7 +57,6 @@ h1, h2, h3, .logo, .btn, .timer-box {
 .nav-links a:hover {
     color: #E67E22;
 }
-
 .btn-primary {
     background-color: #E67E22;
     color: white;
@@ -97,7 +92,6 @@ h1, h2, h3, .logo, .btn, .timer-box {
     background: #E67E22;
     color: white;
 }
-
 section {
     padding: 70px 0;
 }
@@ -124,7 +118,6 @@ section {
 }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }
-
 .card {
     background: white;
     border-radius: 28px;
@@ -150,7 +143,6 @@ section {
     color: #E67E22;
     margin-bottom: 16px;
 }
-
 .hero {
     padding: 50px 0 30px;
 }
@@ -206,14 +198,12 @@ section {
     border-radius: 40px;
     font-size: 1.2rem;
 }
-
 .problema-card {
     background: white;
     border-radius: 24px;
     padding: 20px;
     border-left: 6px solid #E67E22;
 }
-
 .price-box {
     background: #FFFFFF;
     border-radius: 48px;
@@ -237,7 +227,6 @@ section {
     font-size: 0.9rem;
     margin-bottom: 30px;
 }
-
 .garantia-selo {
     background: #EDF4E6;
     border-radius: 30px;
@@ -248,7 +237,6 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .depoimento {
     background: white;
     border-radius: 32px;
@@ -285,7 +273,6 @@ section {
     align-items: center;
     gap: 6px;
 }
-
 .faq-item {
     background: white;
     margin-bottom: 16px;
@@ -300,14 +287,12 @@ section {
     display: flex;
     justify-content: space-between;
 }
-
 footer {
     background: #E7DDD0;
     padding: 40px 0 20px;
     font-size: 0.85rem;
     text-align: center;
 }
-
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -317,7 +302,6 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
-
 @media (max-width: 800px) {
     .hero-grid, .grid-2, .grid-3 {
         grid-template-columns: 1fr;
